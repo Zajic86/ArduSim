@@ -1,19 +1,21 @@
 # ArduSim
-Arduino projects for racing (and other) simulators
+Arduino projects for racing (and other) simulators. The controller uses the Joystick library, making it easy to use—just plug and play. Feedback device must be added as a custom serial device in SimHub for telemetry data.
 
-## Contains
-### Controler
+# Controller (works without SimHub)
+Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not work properly as a USB HID device or may require additional configuration).
 - Analog handbrake
 - Sequential shifter
-- aditional button
+- Additional button
 
-### Feedback
-- add TM1638 8 7-segment display with 8 leds and buttons
-- show actual RPM on led bar
-- show actual speed and gear on 7-segmet units
-- mapping 8 buttons from TM1638 (for gaming purpose)
-- add BLDC high power motor with ESC unit (wind simulator)
-- add servo SG90 for wind directon (flap for air channel)
-- add wibration pad under brake pedal
-- add positioning heavy motors for complete rig
+# Feedback device
+Based on an Arduino Nano board, but it should work on any other board with PWM pins.
+- TM1638 module with an 8-digit 7-segment display, 8 LEDs, and buttons
+- LED bar displaying real-time RPM
+- 7-segment display showing current speed and gear
+- Mapping of 8 TM1638 buttons for in-game functions
+- High-power BLDC motor with ESC unit (wind simulator)
+- SG90 servo for wind direction control (air channel flap)
+- Vibration pad under the brake pedal
+- Heavy-duty positioning motors for full-motion rig
+
   
