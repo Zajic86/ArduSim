@@ -3,12 +3,12 @@ Arduino projects for racing (and other) simulators. The controller uses the Joys
 
 # ArduSim Controller (works without SimHub)
 Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not work properly as a USB HID device or may require additional configuration).
-## Functions of controller
+### Functions of controller
 - Analog handbrake
 - Sequential shifter
 - Additional button
   
-## Costs of controler hardware, total: 255 CZK / ~11 USD
+### Costs of controler hardware, total: 255 CZK / ~11 USD
 Arduino Leonardo Pro mini: 220 CZK / ~9 USD
 https://www.hadex.cz/m381b-klon-arduino-leonardo-pro-micro-atmega32u4-16mhz/
 
@@ -22,7 +22,7 @@ and some wires, Faston connectors, tension spring for handbrake (or rubber band 
 
 # ArduSim Feedback device (uses SimHub)
 Based on an Arduino Nano board, but it should work on any other board with PWM pins.
-## Functions of Feedback device
+### Functions of Feedback device
 - TM1638 module with an 8-digit 7-segment display, 8 LEDs, and buttons
 - LED bar displaying real-time RPM
 - 7-segment display showing current speed and gear
@@ -32,7 +32,7 @@ Based on an Arduino Nano board, but it should work on any other board with PWM p
 - Vibration pad under the brake pedal
 - Heavy-duty positioning motors for full-motion rig
    
-## Costs of Feedback device, total: 735 CZK / ~30.4 USD
+### Costs of Feedback device, total: 735 CZK / ~30.4 USD
 Arduino Nano: 139 CZK / ~5.7 USD
 https://www.hadex.cz/m380c-nano-v30-r3-atmega328p-klon-arduino-s-ch340g/
 
