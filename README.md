@@ -1,5 +1,5 @@
 # ArduSim project
-Arduino projects for racing (and other) simulators. The controller uses the Joystick library, making it easy to use - just plug and play. Feedback device must be added as a custom serial device in SimHub for telemetry data.
+This project contains two different devices based on Arduino boards for racing (and other) simulators. One is ArduSim Controller which contains analog handbrake, sequential shifter and other custom buttons. Another one is ArduSim Feedback device which receiving telemetry data from games through SimHub software and USB serial communication and processing feedback to display (gear, speed), leds (RPM), servos (wind direction) and BLDC motor (wind simulator). 
 
 ## ArduSim Controller (works without SimHub)
 Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not work properly as a USB HID device or may require additional configuration).
@@ -29,8 +29,8 @@ Based on an Arduino Nano board, but it should work on any other board with PWM p
 - Mapping of 8 TM1638 buttons for in-game functions
 - High-power BLDC motor with ESC unit (wind simulator)
 - SG90 servo for wind direction control (air channel flap)
-- Vibration pad under the brake pedal
-- Heavy-duty positioning motors for full-motion rig
+- TODO: Vibration pad under the brake pedal
+- TODO: Heavy-duty positioning motors for full-motion rig
    
 ### Costs of Feedback device, total: 735 CZK / ~30.4 USD
 Arduino Nano: 139 CZK / ~5.7 USD
