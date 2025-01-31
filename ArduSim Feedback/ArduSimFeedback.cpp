@@ -83,7 +83,7 @@ if (dataReceived) {
 } 
 else {
     // Display text when no valid data is received
-    module.setDisplayToString("ZAJIC666");  // Set text on display
+    module.setDisplayToString("ZAJIC86");  // Set text on display
     module.setLEDs(0x00);  // Turn off LEDs
     esc.writeMicroseconds(1000);
   }
