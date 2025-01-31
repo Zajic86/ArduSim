@@ -32,8 +32,8 @@ Based on an Arduino Nano board, but it should work with any other board that has
 - Mapping of 8 TM1638 buttons for in-game functions
 - High-power BLDC motor with ESC unit (wind simulator)
 - SG90 servo for wind direction control (air channel flap)
-- TODO: Vibration pad under the brake pedal
-- TODO: Heavy-duty positioning motors for full-motion rig
+- TODO: Vibration pad under the brake pedal (or some kind of braking feedback)
+- TODO: Heavy-duty positioning motors for full-motion rig (position potenciometers included)
    
 ### Costs of Feedback device, total: 735 CZK / ~30.4 USD
 Arduino Nano: 139 CZK / ~5.7 USD
