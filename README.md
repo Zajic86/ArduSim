@@ -21,7 +21,7 @@ https://www.hadex.cz/h363-100kn-telpod-svp-30--potenciometr-tahovy/
 and some wires, Faston connectors, tension spring for handbrake (or rubber band - I use old spring shock absorber from RC car model), threaded rod and nuts for construction. You can printed 3D model or make it your own way.
 
 ## ArduSim Feedback device (uses SimHub)
-Based on an Arduino Nano board, but it should work on any other board with PWM pins.
+Based on an Arduino Nano board, but it should work with any other board that has PWM pins. The device receives data from game telemetry through SimHub serial communication, and the Arduino processes it. The easiest way to create feedback for your gaming experience.
 ### Functions of Feedback device
 - TM1638 module with an 8-digit 7-segment display, 8 LEDs, and buttons
 - LED bar displaying real-time RPM
