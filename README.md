@@ -16,12 +16,12 @@ Arduino Leonardo Pro mini: 220 CZK / ~9 USD
 https://www.hadex.cz/m381b-klon-arduino-leonardo-pro-micro-atmega32u4-16mhz/
 
 2 pcs of microswitch (or more): 30 CZK / ~1 USD
-https://www.hadex.cz/l400-mikrospinac-s-packou-msw-03-on-on-1pol250v10a/
+https://www.hadex.cz/l400-mikrospinac-s-packou-msw-03-on-on-1pol250v10a/ - Or you can use any microswitch from old devices (e.g., a PC mouse, a microwave door switch, etc.).
 
 Linear potenciometer (any value should work): 5 CZK / ~0.2 USD
-https://www.hadex.cz/h363-100kn-telpod-svp-30--potenciometr-tahovy/
+https://www.hadex.cz/h363-100kn-telpod-svp-30--potenciometr-tahovy/ - Or you can use a classic knob potentiometer (the mapping is the same as for a linear potentiometer), but you must solve the gear mechanism between the handle and the turning potentiometer.
 
-and some wires, Faston connectors, tension spring for handbrake (or rubber band - I use old spring shock absorber from RC car model), threaded rod and nuts for construction. You can printed 3D model or make it your own way.
+And some wires, Faston connectors, a tension spring for the handbrake (or a rubber band – I used an old spring shock absorber from an RC car model), a threaded rod, and nuts for the construction. You can print a 3D model or make it your own way.
 
 ## ArduSim Feedback device (uses SimHub (or similar) as a serial device)
 Based on an Arduino Nano board, but it should work with any other board that has PWM pins. The device receives data from game telemetry through SimHub serial communication, and the Arduino processes it. The easiest way to create feedback for your gaming experience.
