@@ -8,7 +8,8 @@ Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not wor
 - Sequential shifter
 - Additional button
 
-### Note: If the buttons don't work properly (maybe you are using a different type of microswitch?), try changing INPUT_PULLUP in the code to simply INPUT.
+### Note: 
+If the buttons don't work properly (maybe you are using a different type of microswitch?), try changing INPUT_PULLUP in the code to simply INPUT.
   
 ### Costs of controler hardware, total: 255 CZK / ~11 USD
 Arduino Leonardo Pro mini: 220 CZK / ~9 USD
