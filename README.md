@@ -7,6 +7,7 @@ Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not wor
 - Analog handbrake
 - Sequential shifter
 - Additional button
+  
 ## Costs of controler hardware, total: 255 CZK / ~11 USD
 Arduino Leonardo Pro mini: 220 CZK / ~9 USD
 https://www.hadex.cz/m381b-klon-arduino-leonardo-pro-micro-atmega32u4-16mhz/
@@ -29,8 +30,9 @@ Based on an Arduino Nano board, but it should work on any other board with PWM p
 - High-power BLDC motor with ESC unit (wind simulator)
 - SG90 servo for wind direction control (air channel flap)
 - Vibration pad under the brake pedal
-- Heavy-duty positioning motors for full-motion rig 
-## Costs of Feedback device, total: 
+- Heavy-duty positioning motors for full-motion rig
+   
+## Costs of Feedback device, total: 735 CZK / ~30.4 USD
 Arduino Nano: 139 CZK / ~5.7 USD
 https://www.hadex.cz/m380c-nano-v30-r3-atmega328p-klon-arduino-s-ch340g/
 
