@@ -2,7 +2,7 @@
 This project contains two different devices based on Arduino boards for racing (and other) simulators. The first one is the ArduSim Controller, which includes an analog handbrake, a sequential shifter, and additional custom buttons. The second one is the ArduSim Feedback device, which receives telemetry data from games via SimHub software and USB serial communication. It processes this data to control a display (gear, speed), LEDs (RPM), servos (wind direction), and a BLDC motor (wind simulator). With this method of communication, you can play with any telemetry that SimHub provides from the game and build your own feedback device based on various data.
 
 ## ArduSim Controller (works without SimHub)
-Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not work properly as a USB HID device or may require additional configuration).
+Based on an Arduino Leonardo/Pro Mini board (important! Other boards may not work properly as a USB HID device or may require additional configuration). Works through joystick arduino library like a normal joystick/gamepad device.
 ### Functions of controller
 - Analog handbrake
 - Sequential shifter
